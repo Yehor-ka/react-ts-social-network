@@ -25,3 +25,8 @@ export interface IMenuItem {
         muiName: string;
     }
 }
+
+export interface IMessage {
+    user: IUser
+    message: string
+}
